@@ -7,7 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.eventmanagement.eventmanagement.models.Event;
+
+import com.eventmanagement.eventmanagement.AccesoDatos.models.Event;
 import com.eventmanagement.eventmanagement.services.IEventServices;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;

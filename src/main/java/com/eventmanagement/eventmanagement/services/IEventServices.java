@@ -1,6 +1,7 @@
 package com.eventmanagement.eventmanagement.services;
 import java.util.List;
-import com.eventmanagement.eventmanagement.models.Event;
+
+import com.eventmanagement.eventmanagement.AccesoDatos.models.Event;
 public interface IEventServices {
     public List<Event> findAll();
     public Event findById(int id);
