@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.eventmanagement.eventmanagement.AccesoDatos.models.User;
-import com.eventmanagement.eventmanagement.AccesoDatos.repositories.UserRepository;
+import com.eventmanagement.eventmanagement.accessData.models.User;
+import com.eventmanagement.eventmanagement.accessData.repositories.UserRepository;
 
 @Service
 public class UserImplServices implements IUserServices{

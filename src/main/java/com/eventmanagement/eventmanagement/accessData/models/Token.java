@@ -1,4 +1,4 @@
-package com.eventmanagement.eventmanagement.AccesoDatos.models;
+package com.eventmanagement.eventmanagement.accessData.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

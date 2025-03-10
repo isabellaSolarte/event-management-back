@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.eventmanagement.eventmanagement.AccesoDatos.models.User;
-import com.eventmanagement.eventmanagement.AccesoDatos.repositories.UserRepository;
+import com.eventmanagement.eventmanagement.accessData.models.User;
+import com.eventmanagement.eventmanagement.accessData.repositories.UserRepository;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService{

@@ -1,4 +1,4 @@
-package com.eventmanagement.eventmanagement.AccesoDatos.models;
+package com.eventmanagement.eventmanagement.accessData.models;
 
 import java.util.Date;
 

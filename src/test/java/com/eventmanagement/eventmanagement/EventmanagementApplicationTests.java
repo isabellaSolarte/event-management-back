@@ -22,7 +22,7 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
 
-import com.eventmanagement.eventmanagement.AccesoDatos.models.Event;
+import com.eventmanagement.eventmanagement.accessData.models.Event;
 import com.eventmanagement.eventmanagement.controllers.EventRestController;
 import com.eventmanagement.eventmanagement.services.IEventServices;
 

@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.eventmanagement.eventmanagement.AccesoDatos.models.User;
-import com.eventmanagement.eventmanagement.AccesoDatos.repositories.UserRepository;
 import com.eventmanagement.eventmanagement.Auth.jwt.JwtUtil;
+import com.eventmanagement.eventmanagement.accessData.models.User;
+import com.eventmanagement.eventmanagement.accessData.repositories.UserRepository;
 
 
 @CrossOrigin(origins = "http://localhost:4200")

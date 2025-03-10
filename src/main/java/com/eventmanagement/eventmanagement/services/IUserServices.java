@@ -2,7 +2,7 @@ package com.eventmanagement.eventmanagement.services;
 
 import java.util.List;
 
-import com.eventmanagement.eventmanagement.AccesoDatos.models.User;
+import com.eventmanagement.eventmanagement.accessData.models.User;
 
 public interface IUserServices {
     public List<User> findAll();

@@ -3,10 +3,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
-import com.eventmanagement.eventmanagement.AccesoDatos.models.Event;
-import com.eventmanagement.eventmanagement.AccesoDatos.repositories.EventRepository;
-
 import org.springframework.transaction.annotation.Transactional;
+
+import com.eventmanagement.eventmanagement.accessData.models.Event;
+import com.eventmanagement.eventmanagement.accessData.repositories.EventRepository;
 
 @Service
 public class EventImplServices implements IEventServices {
